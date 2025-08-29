@@ -1,6 +1,6 @@
 # Bike Shop Service Manager
 
-A modern web application for managing bike shop service tickets using Lean manufacturing principles and Kanban board interface.
+A modern web application for managing bike shop service tickets using Lean manufacturing principles and Kanban board interface. I did this.
 
 ## Features
 
