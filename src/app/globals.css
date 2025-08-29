@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Test to see if CSS is loading */
+body {
+  background-color: #f3f4f6 !important;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -29,15 +34,15 @@
   }
   
   .btn-primary {
-    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+    @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500;
   }
   
   .btn-secondary {
-    @apply bg-white border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-primary-500;
+    @apply bg-white border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-blue-500;
   }
   
   .input {
-    @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm;
+    @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm;
   }
   
   .card {
